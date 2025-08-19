@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --bg-color: #303030;
+  --second-bg-color: #f9f9f9;
+  --third-bg-color: #c07212;
+}
+
+header {
+  background-color: var(--bg-color);
+  color: #ffffff;
+  padding: 5rem;
+}
+
+.first-section {
+  display: flex;
+  font-size: 20px;
+  background-color: var(--second-bg-color);
+  color: #000000;
+  column-count: 3;
+  gap: 15rem;
+  padding: 2.5rem 10rem 2.5rem 2rem;
+  justify-content: center;
+}
+
+.second-section {
+  display: flex; /* text + img side by side */
+  align-items: center; 
+  justify-content: center; 
+  gap: 4rem;
+  padding: 5rem 10rem; /* reduce a bit for balance */
+}
+
+.text-content {
+  max-width: 600px; /* keep text block readable */
+}
+
+.image-section {
+  max-width: 400px; /* control image size */
+  height: auto;
+}
+
+footer {
+  color: #ffffff;
+  background-color: var(--bg-color);
+  padding: 8rem;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column; /* stack everything */
+  align-items: center;
+  gap: 1rem; /* space between fields */
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.footer-form input {
+  width: 250px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.footer-form button {
+  background-color: var(--third-bg-color);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
