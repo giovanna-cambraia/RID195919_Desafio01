@@ -22,28 +22,19 @@ Por isso, ajustei o layout para se adaptar melhor ao meu monitor, sem perder a e
 
 O formulário de contato do site está integrado ao SheetMonkey, enviando as respostas diretamente para uma planilha.
 
+
 Endpoint utilizado:
 
 https://api.sheetmonkey.io/form/mKDj3VErRvVfddJjySYovy
 
-
 Os dados submetidos pelo formulário são armazenados automaticamente para facilitar o gerenciamento das mensagens recebidas.
-
-Exemplo de uso no HTML:
-
-<form action="https://api.sheetmonkey.io/form/mKDj3VErRvVfddJjySYovy" method="post">
-  <input type="text" name="Nome" placeholder="Seu nome" required />
-  <input type="email" name="Email" placeholder="Seu e-mail" required />
-  <textarea name="Mensagem" placeholder="Sua mensagem"></textarea>
-  <button type="submit">Enviar</button>
-</form>
-
 
 
 🚀 Deploy no Netlify
 
 O site foi deployado no Netlify, e está disponível em:
 👉 https://desafio01-dn.netlify.app/
+
 
 🛠️ Detalhes
 
