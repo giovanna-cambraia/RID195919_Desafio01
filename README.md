@@ -1,4 +1,4 @@
-# 🏛️ Site de Arquitetura – Desafio 01
+# 🏛️ Site de Arquitetura – Desafio do Curso
 
 Este projeto é um site simples de arquitetura, desenvolvido como parte de um desafio do curso.
 
@@ -8,6 +8,14 @@ Este projeto é um site simples de arquitetura, desenvolvido como parte de um de
 Praticar HTML e CSS.
 
 Reproduzir o layout proposto no Figma.
+
+Garantir responsividade em diferentes tamanhos de tela.
+
+
+⚠️ Observação Importante
+
+As métricas (espaçamentos, tamanhos e proporções) podem estar diferentes do modelo original do Figma, pois desenvolvi o projeto em uma tela wide da marca Spectre.
+Por isso, ajustei o layout para se adaptar melhor ao meu monitor, sem perder a essência do design.
 
 
 📝 Integração com SheetMonkey
@@ -21,18 +29,28 @@ https://api.sheetmonkey.io/form/mKDj3VErRvVfddJjySYovy
 
 Os dados submetidos pelo formulário são armazenados automaticamente para facilitar o gerenciamento das mensagens recebidas.
 
+Exemplo de uso no HTML:
 
-⚠️ Observação Importante
+<form action="https://api.sheetmonkey.io/form/mKDj3VErRvVfddJjySYovy" method="post">
+  <input type="text" name="Nome" placeholder="Seu nome" required />
+  <input type="email" name="Email" placeholder="Seu e-mail" required />
+  <textarea name="Mensagem" placeholder="Sua mensagem"></textarea>
+  <button type="submit">Enviar</button>
+</form>
 
-As métricas (espaçamentos, tamanhos e proporções) podem estar diferentes do modelo original do Figma, pois desenvolvi o projeto em uma tela wide da marca Spectre.
-Por isso, ajustei o layout para se adaptar melhor ao meu monitor, sem perder a essência do design.
 
+🚀 Deploy no Netlify
 
-🚀 Tecnologias Utilizadas
+O site foi deployado no Netlify, e está disponível em:
+👉 https://desafio01-dn.netlify.app/
 
-HTML5
+🛠️ Detalhes
 
-CSS3
+Deploy feito via Netlify, com hospedagem estática.
+
+A cada atualização do repositório, o build é publicado automaticamente.
+
+O Netlify garante performance e entrega via CDN.
 
 
 📂 Estrutura
