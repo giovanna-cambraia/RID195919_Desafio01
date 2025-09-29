@@ -16,6 +16,10 @@ header {
   padding: 5rem;
 }
 
+header p {
+  margin-top: 15px;
+}
+
 .first-section {
   display: flex;
   font-size: 20px;
@@ -32,15 +36,19 @@ header {
   align-items: center; 
   justify-content: center; 
   gap: 4rem;
-  padding: 5rem 10rem; /* reduce a bit for balance */
+  padding: 5rem 10rem; 
+}
+
+.second-section p {
+  margin-top: 20px;
 }
 
 .text-content {
-  max-width: 600px; /* keep text block readable */
+  max-width: 600px; 
 }
 
 .image-section {
-  max-width: 400px; /* control image size */
+  max-width: 400px; 
   height: auto;
 }
 
@@ -57,9 +65,9 @@ footer h3 {
 
 .footer-form {
   display: flex;
-  flex-direction: column; /* stack everything */
+  flex-direction: column; 
   align-items: center;
-  gap: 1rem; /* space between fields */
+  gap: 1rem; 
   padding: 2rem;
   border-radius: 5px;
 }
@@ -72,6 +80,7 @@ footer h3 {
 }
 
 .footer-form button {
+  margin-top: 15px;
   background-color: var(--third-bg-color);
   color: #fff;
   padding: 0.6rem 1.2rem;
