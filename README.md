@@ -14,7 +14,7 @@ Garantir responsividade em diferentes tamanhos de tela.
 
 ⚠️ Observação Importante
 
-As métricas (espaçamentos, tamanhos e proporções) podem estar diferentes do modelo original do Figma, pois desenvolvi o projeto em uma tela wide da marca Spectre.
+As métricas (espaçamentos, tamanhos e proporções) podem estar diferentes do modelo original do Figma, pois desenvolvi o projeto em uma tela ultrawide da marca Spectre.
 Por isso, ajustei o layout para se adaptar melhor ao meu monitor, sem perder a essência do design.
 
 
