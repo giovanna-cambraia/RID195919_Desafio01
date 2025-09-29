@@ -24,6 +24,5 @@ CSS3
 
 └── assets/
     ├── imagens
-    └── ícones
 ├── index.html
 ├── style.css
